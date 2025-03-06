@@ -1,4 +1,16 @@
-
+$compress = @{
+  Path = "C:\Reference\Draftdoc.docx", "C:\Reference\Images\*.vsd"
+  CompressionLevel = "Fastest"
+  DestinationPath = "C:\Archives\Draft.zip"
+}
+Compress-Archive @compress Compress-Archive
+        -LiteralPath <String[]>
+        [-DestinationPath] <String>
+        [-CompressionLevel <String>]
+        [-PassThru]
+        [-WhatIf]
+        [-Confirm]
+        [<CommonParameters>]
 
 - 👋 Hi, I’m @ananasik365
 - 👀 I’m interested in ...
