@@ -11,4 +11,4 @@
 <!---
 ananasik365/ananasik365 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->🚼
+--->🚼7deb8a570c0451389099f99adb938b4810017854 git клон ssh://gerrithost:29418/RecipeBook.git RecipeBook catchain/catchain-receiver.cpp $ curl -Lo .git/hooks/commit-msg http://review.example.com/tools/hooks/commit-msg
